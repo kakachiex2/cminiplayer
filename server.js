@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 // Serve static files from the "public" directory
-app.use(express.static(['css', 'js', 'mp3'], { extensions: ['css', 'js', 'mp3'] }));
+app.use(express.static(['src','audio'], { extensions: ['css', 'js', 'mp3'] }));
 
 // Set EJS as the templating engine
 app.set('view engine', 'ejs');
