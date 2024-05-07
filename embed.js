@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
   var stopButton = player.querySelector('stop');
 
   // Create the audio element
-  var audioPlayer = player.querySelector('audio');
+  var audioPlayer = player.querySelector('audio-player');
   audioPlayer.src = audioSrc;
 
   // Add event listeners
