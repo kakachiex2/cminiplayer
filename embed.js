@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function(){
   var player = document.getElementById('audio-player');
 
   // Get the existing buttons within the player widget
-  var playPauseButton = player.querySelector('#play-pause');
-  var stopButton = player.querySelector('#stop');
+  var playPauseButton = player.querySelector('play-pause');
+  var stopButton = player.querySelector('stop');
 
   // Create the audio element
   var audioPlayer = player.querySelector('audio');
