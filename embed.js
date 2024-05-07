@@ -1,4 +1,4 @@
-(function() {
+document.addEventListener('DOMContentLoaded', function(){
   // Get the script tag that loaded this script
   var scriptTag = document.currentScript;
 
@@ -35,4 +35,4 @@
     audioPlayer.currentTime = 0;
     playPauseButton.textContent = 'Play';
   });
-})();
+});
