@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+window.onload = function() {
   // Get the script tag that loaded this script
   var scriptTag = document.currentScript;
 
@@ -35,4 +35,4 @@ document.addEventListener('DOMContentLoaded', function() {
     audioPlayer.currentTime = 0;
     playPauseButton.textContent = 'Play';
   });
-});
+};
