@@ -21,11 +21,23 @@
 <!--        <script src="./src/js/main.js"></script>-->
 
     <!-- embed script tag -->
+<!--
     <script type="text/javascript" src="https://kakachiex2.github.io/miniplayer/embed.js"
     data-audio-src="https://kakachiex2.github.io/miniplayer/audio/laSeparacion.mp3" type="audio/mpeg"
     data-player-id="123456"
     data-width="300"
     data-height="50">
+    </script>
+-->
+
+    <!-- Dynamically load the embed.js script -->
+    <script>
+        // Create a new script element
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://kakachiex2.github.io/miniplayer/embed.js';
+
+        // Append the script to the <body> (or <head>)
+        document.body.appendChild(scriptElement);
     </script>
 
 </body>
